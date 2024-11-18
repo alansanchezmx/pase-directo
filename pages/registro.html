@@ -8,5 +8,98 @@
 <body>
     
     <a href="../index.html">volver al inicio</a>
+
+    <!-- Header -->
+<header>
+    <nav>
+        <ul>
+            <li> <a href="../index.html">Inicio</a></li>
+            <li> <a href="#">Cursos</a></li>
+            <li>  <a href="#">LogIn</a></li>
+        </ul>
+       
+       
+      
+    </nav>
+</header>
+
+<!-- Contenido principal (main) -->
+ <main>
+    <!-- formulario (form)-->
+     <h2>Sign up</h2>
+     <hr>
+     <form>
+        <div>
+            <label for="Nombre">Nombre</label>
+            <br>
+            <input type="text" id="Nombre" 
+            placeholder="Nombre">
+        </div>
+        <br>
+      <div>
+        <label for="Apellido paterno">Apellido paterno</label>
+        <br>
+        <input type="text" id="Apellido paterno" placeholder="Apellido paterno">
+        <div>
+            <br>
+            <label for="Apellido materno">Apellido materno</label>
+            <br>
+            <input type="text" id="Apellido materno" placeholder="Apellido materno" aria-placeholder="Apellido materno">
+        </div>
+        <br> <!-- Salto de linea (br) -->
+    <div>
+        <label for="InputEmail">Email</label>
+        <br>
+        <input type="email" name="Email" 
+        id="InputEmail" placeholder="user@correo.com">
+    </div>
+    <br>
+    <div>
+       <label for="cname">País</label>
+       <br>
+       <select name="cname" id="cname">
+        <option value="mex">México</option>
+        <option value="col">Colombia</option>
+        <option value="arg">Argentina</option>
+        <option value="per">Perú</option>
+       </select>
+    </div>
+    <div>
+        <br>
+        <p>Genero</p>
+        <input type="radio" name="genero" id="masculino" value="Masculino">
+        <label for="genero">Masculino</label>
+        <br>
+        <input type="radio" name="genero" id="femenino" value="Femenino">
+        <label for="genero">Femenino</label>
+        <br>
+        <input type="radio" name="genero" id="otro" value="otro">
+        <label for="genero">otro</label>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="legal" id="legal" value="aceptado">
+        <label for="legal">Aceptar términos de privacidad</label>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="recibircorreos" id="recibircorreos" value="true">
+        <label for="recibircorreos">Recibir correos</label>
+    </div>
+    <br>
+    <div>
+        <button type="submit">Sign Up</button>
+        <!-- <input type="submit" value="Sign Up"> -->
+    </div>
+     </form>
+    
+
+ </main>
+ <hr>
+ <!-- Pie de página (footer) -->
+  <footer>
+    <h5>Todos los derechos reservados de "Pase Directo"</h5>
+  </footer>
+
 </body>
 </html>
